@@ -1,26 +1,32 @@
 up:
-	docker compose up -d
+	docker compose up -d --build
 
 down:
-	docker compose down
+	docker compose --profile sensores down
 
 build:
 	docker compose build
 
 logs:
-	docker compose logs -f
+	docker compose --profile sensores logs -f
 
 logs-consumer:
 	docker compose logs -f consumer
 
 logs-producer:
-	docker compose logs -f producer
+	docker compose --profile sensores logs -f producer producer-2 producer-3
+
+logs-init:
+	docker compose logs kafka-init
 
 scale-one:
-	docker compose up -d --scale consumer=1 consumer
+	docker compose up -d --no-deps --scale consumer=1 consumer
 
 scale-three:
-	docker compose up -d --scale consumer=3 consumer
+	docker compose up -d --no-deps --scale consumer=3 consumer
+
+stop-consumer:
+	docker stop $$(docker ps --filter "label=com.docker.compose.service=consumer" --format "{{.ID}}" | head -n 1)
 
 stop-broker:
 	docker compose stop kafka1
@@ -28,5 +34,15 @@ stop-broker:
 start-broker:
 	docker compose start kafka1
 
+sensores:
+	docker compose --profile sensores up -d --no-deps producer-2 producer-3
+
+sensores-down:
+	docker compose --profile sensores stop producer-2 producer-3
+	docker compose --profile sensores rm -f producer-2 producer-3
+
+topic:
+	docker exec kafka1 /opt/kafka/bin/kafka-topics.sh --bootstrap-server kafka1:19092 --describe --topic dados-sensores
+
 status:
-	docker compose ps
+	docker compose --profile sensores ps

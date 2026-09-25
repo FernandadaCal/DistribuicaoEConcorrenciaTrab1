@@ -101,36 +101,46 @@ services:
       - kafka2
       - kafka3
 
+    environment:
+      KAFKA_TOPIC: ${KAFKA_TOPIC:-dados-sensores}
+
     entrypoint:
       - /bin/sh
       - -c
 
-    command: |
-      echo "Aguardando o cluster Kafka..."
+    command:
+      - |
+        set -e
 
-      until /opt/kafka/bin/kafka-topics.sh \
-        --bootstrap-server kafka1:19092 \
-        --list > /dev/null 2>&1;
-      do
-        sleep 3
-      done
+        echo "Aguardando os 3 brokers Kafka..."
 
-      echo "Criando topico dados-sensores..."
+        for broker in kafka1:19092 kafka2:19092 kafka3:19092; do
+          until /opt/kafka/bin/kafka-topics.sh \
+            --bootstrap-server "$$broker" \
+            --list > /dev/null 2>&1
+          do
+            echo "Broker $$broker ainda indisponivel, aguardando..."
+            sleep 3
+          done
+          echo "Broker $$broker disponivel."
+        done
 
-      /opt/kafka/bin/kafka-topics.sh \
-        --bootstrap-server kafka1:19092 \
-        --create \
-        --if-not-exists \
-        --topic dados-sensores \
-        --partitions 3 \
-        --replication-factor 2
+        echo "Criando topico $${KAFKA_TOPIC}..."
 
-      echo "Topico criado."
+        /opt/kafka/bin/kafka-topics.sh \
+          --bootstrap-server kafka1:19092,kafka2:19092,kafka3:19092 \
+          --create \
+          --if-not-exists \
+          --topic "$${KAFKA_TOPIC}" \
+          --partitions 3 \
+          --replication-factor 2
 
-      /opt/kafka/bin/kafka-topics.sh \
-        --bootstrap-server kafka1:19092 \
-        --describe \
-        --topic dados-sensores
+        echo "Topico pronto:"
+
+        /opt/kafka/bin/kafka-topics.sh \
+          --bootstrap-server kafka1:19092,kafka2:19092,kafka3:19092 \
+          --describe \
+          --topic "$${KAFKA_TOPIC}"
 
 
   producer:
@@ -142,6 +152,8 @@ services:
 
     environment:
       KAFKA_BOOTSTRAP_SERVERS: kafka1:19092,kafka2:19092,kafka3:19092
+
+    restart: on-failure
 
     depends_on:
       kafka-init:
@@ -157,6 +169,50 @@ services:
 
     environment:
       KAFKA_BOOTSTRAP_SERVERS: kafka1:19092,kafka2:19092,kafka3:19092
+
+    restart: on-failure
+
+    depends_on:
+      kafka-init:
+        condition: service_completed_successfully
+
+
+  producer-2:
+    build:
+      context: ./producer
+
+    env_file:
+      - .env
+
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: kafka1:19092,kafka2:19092,kafka3:19092
+      SENSOR_ID: sensor-02
+
+    restart: on-failure
+
+    profiles:
+      - sensores
+
+    depends_on:
+      kafka-init:
+        condition: service_completed_successfully
+
+
+  producer-3:
+    build:
+      context: ./producer
+
+    env_file:
+      - .env
+
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: kafka1:19092,kafka2:19092,kafka3:19092
+      SENSOR_ID: sensor-03
+
+    restart: on-failure
+
+    profiles:
+      - sensores
 
     depends_on:
       kafka-init:

@@ -1,5 +1,5 @@
 param(
-    [string]$Servico = "consumer"
+    [string[]]$Servico = @("consumer")
 )
 
-docker compose logs -f $Servico
+docker compose --profile sensores logs -f @Servico

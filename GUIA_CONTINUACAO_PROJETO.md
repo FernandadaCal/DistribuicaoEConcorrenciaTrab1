@@ -1,5 +1,23 @@
 # Guia para continuar e finalizar o projeto
 
+## Status (atualizado em 25/09/2026)
+
+| Item | Situação |
+|------|----------|
+| 2.1 Corrigir `kafka-init` | FEITO (`docker-compose.yml`) |
+| 2.2 Inicialização de producer/consumer | FEITO via `depends_on` + `restart: on-failure`, sem alterar o código Python |
+| 2.3 `.env.example` | FEITO |
+| 2.4 Scripts PowerShell | FEITO (novos: `start-sensores`, `topic-info`, `save-logs`, `run-tests`) |
+| 2.5 Makefile | FEITO (alvos novos para tópico, sensores e logs) |
+| 2.6 Logs dos testes | PENDENTE: rodar `scripts/run-tests.ps1` para gerar a pasta `logs/` |
+| 2.7 README | FEITO |
+| 2.8 Relatório | `RELATORIO.md` escrito; faltam os trechos de log e a conclusão |
+| 2.9 Apresentação | Roteiro no README ("Roteiro de demonstração") |
+
+As seções abaixo são as originais do guia.
+
+---
+
 Este guia considera que a parte funcional principal já foi implementada e testada.
 
 ## O que já foi validado

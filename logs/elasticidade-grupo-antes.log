@@ -4,6 +4,6 @@
 	Topic: dados-sensores	Partition: 2	Leader: 3	Replicas: 3,1	Isr: 1,3	Elr: 	LastKnownElr: 
 
 GROUP                  TOPIC           PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                              HOST            CLIENT-ID
-processadores-sensores dados-sensores  0          44              45              1               kafka-python-3.0.11-d57665fa-9a92-490a-9733-41b42fc5e380 /172.18.0.8     kafka-python-3.0.11
-processadores-sensores dados-sensores  1          59              60              1               kafka-python-3.0.11-d57665fa-9a92-490a-9733-41b42fc5e380 /172.18.0.8     kafka-python-3.0.11
-processadores-sensores dados-sensores  2          46              46              0               kafka-python-3.0.11-da864102-c471-4f30-aee1-0091602dcb82 /172.18.0.5     kafka-python-3.0.11
+processadores-sensores dados-sensores  0          59              59              0               kafka-python-3.0.11-da864102-c471-4f30-aee1-0091602dcb82 /172.18.0.5     kafka-python-3.0.11
+processadores-sensores dados-sensores  1          69              70              1               kafka-python-3.0.11-da864102-c471-4f30-aee1-0091602dcb82 /172.18.0.5     kafka-python-3.0.11
+processadores-sensores dados-sensores  2          52              52              0               kafka-python-3.0.11-da864102-c471-4f30-aee1-0091602dcb82 /172.18.0.5     kafka-python-3.0.11

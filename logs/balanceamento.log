@@ -1,325 +1,96 @@
-﻿producer-1  | 2026-09-26T00:56:26.253997459Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=800 | Temperatura=79.8 ┬░C | Vibracao=5.05
-consumer-3  | 2026-09-26T00:56:47.868060494Z [CONSUMER 74f4d669531c] Particao=0 | Offset=826 | Sensor=sensor-03 | Temperatura=70.5 ┬░C | Vibracao=4.61
-producer-1  | 2026-09-26T00:56:26.254063344Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=801 | Temperatura=71.58 ┬░C | Vibracao=6.8
-producer-1  | 2026-09-26T00:56:26.254072623Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=816 | Temperatura=31.43 ┬░C | Vibracao=3.31
-producer-1  | 2026-09-26T00:56:26.254079798Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=873 | Temperatura=63.2 ┬░C | Vibracao=2.3
-producer-1  | 2026-09-26T00:56:26.254085961Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=875 | Temperatura=54.9 ┬░C | Vibracao=1.17
-producer-1  | 2026-09-26T00:56:26.254117105Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=805 | Temperatura=69.31 ┬░C | Vibracao=0.22
-consumer-2  | 2026-09-26T00:56:35.941157440Z [CONSUMER 91ce427547f6] Particao=2 | Offset=895 | Sensor=sensor-01 | Temperatura=56.14 ┬░C | Vibracao=3.39
-consumer-3  | 2026-09-26T00:56:47.868116170Z [CONSUMER 74f4d669531c] Particao=0 | Offset=827 | Sensor=sensor-02 | Temperatura=26.39 ┬░C | Vibracao=1.16
-consumer-3  | 2026-09-26T00:56:47.868122704Z [CONSUMER 74f4d669531c] Particao=0 | Offset=828 | Sensor=sensor-02 | Temperatura=64.22 ┬░C | Vibracao=0.21
-consumer-2  | 2026-09-26T00:56:35.941229139Z [CONSUMER 91ce427547f6] Particao=2 | Offset=896 | Sensor=sensor-02 | Temperatura=62.34 ┬░C | Vibracao=3.87
-producer-1  | 2026-09-26T00:56:26.254122686Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=807 | Temperatura=82.71 ┬░C | Vibracao=3.4
-consumer-2  | 2026-09-26T00:56:35.941241234Z [CONSUMER 91ce427547f6] Particao=2 | Offset=897 | Sensor=sensor-01 | Temperatura=45.21 ┬░C | Vibracao=4.13
-consumer-3  | 2026-09-26T00:56:47.868128646Z [CONSUMER 74f4d669531c] Particao=0 | Offset=829 | Sensor=sensor-03 | Temperatura=90.26 ┬░C | Vibracao=5.8
-consumer-3  | 2026-09-26T00:56:47.868134368Z [ALERTA] Consumer=74f4d669531c | Sensor=sensor-03 | Temperatura=90.26 ┬░C
-consumer-3  | 2026-09-26T00:56:47.868139850Z [CONSUMER 74f4d669531c] Particao=0 | Offset=830 | Sensor=sensor-03 | Temperatura=51.19 ┬░C | Vibracao=4.44
-consumer-3  | 2026-09-26T00:56:47.868145451Z [CONSUMER 74f4d669531c] Particao=0 | Offset=831 | Sensor=sensor-01 | Temperatura=66.8 ┬░C | Vibracao=2.03
-consumer-2  | 2026-09-26T00:56:35.941248899Z [CONSUMER 91ce427547f6] Particao=2 | Offset=898 | Sensor=sensor-02 | Temperatura=55.28 ┬░C | Vibracao=8.26
-consumer-2  | 2026-09-26T00:56:35.941257297Z [CONSUMER 91ce427547f6] Particao=2 | Offset=899 | Sensor=sensor-01 | Temperatura=66.47 ┬░C | Vibracao=2.97
-consumer-3  | 2026-09-26T00:56:47.868150873Z [CONSUMER 74f4d669531c] Particao=0 | Offset=832 | Sensor=sensor-01 | Temperatura=94.36 ┬░C | Vibracao=3.57
-consumer-3  | 2026-09-26T00:56:47.868156224Z [ALERTA] Consumer=74f4d669531c | Sensor=sensor-01 | Temperatura=94.36 ┬░C
-consumer-3  | 2026-09-26T00:56:47.868161495Z [CONSUMER 74f4d669531c] Particao=0 | Offset=833 | Sensor=sensor-02 | Temperatura=34.67 ┬░C | Vibracao=7.55
-consumer-3  | 2026-09-26T00:56:47.868166826Z [CONSUMER 74f4d669531c] Particao=0 | Offset=834 | Sensor=sensor-03 | Temperatura=33.78 ┬░C | Vibracao=0.47
-producer-1  | 2026-09-26T00:56:26.254127105Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=808 | Temperatura=20.05 ┬░C | Vibracao=1.36
-consumer-3  | 2026-09-26T00:56:47.868172167Z [CONSUMER 74f4d669531c] Particao=0 | Offset=835 | Sensor=sensor-02 | Temperatura=30.7 ┬░C | Vibracao=4.89
-consumer-3  | 2026-09-26T00:56:47.868177448Z [CONSUMER 74f4d669531c] Particao=0 | Offset=836 | Sensor=sensor-03 | Temperatura=62.68 ┬░C | Vibracao=5.8
-consumer-2  | 2026-09-26T00:56:35.941264482Z [CONSUMER 91ce427547f6] Particao=2 | Offset=900 | Sensor=sensor-02 | Temperatura=69.28 ┬░C | Vibracao=1.78
-consumer-3  | 2026-09-26T00:56:47.868182759Z [CONSUMER 74f4d669531c] Particao=0 | Offset=837 | Sensor=sensor-01 | Temperatura=45.43 ┬░C | Vibracao=4.12
-consumer-2  | 2026-09-26T00:56:35.941271546Z [CONSUMER 91ce427547f6] Particao=2 | Offset=901 | Sensor=sensor-03 | Temperatura=97.08 ┬░C | Vibracao=4.93
-consumer-3  | 2026-09-26T00:56:47.868188060Z [CONSUMER 74f4d669531c] Particao=0 | Offset=838 | Sensor=sensor-02 | Temperatura=77.24 ┬░C | Vibracao=8.74
-consumer-3  | 2026-09-26T00:56:47.868193421Z [CONSUMER 74f4d669531c] Particao=0 | Offset=839 | Sensor=sensor-03 | Temperatura=87.79 ┬░C | Vibracao=8.91
-consumer-3  | 2026-09-26T00:56:47.868198762Z [ALERTA] Consumer=74f4d669531c | Sensor=sensor-03 | Temperatura=87.79 ┬░C
-consumer-2  | 2026-09-26T00:56:35.941278390Z [ALERTA] Consumer=91ce427547f6 | Sensor=sensor-03 | Temperatura=97.08 ┬░C
-consumer-2  | 2026-09-26T00:56:35.941285154Z [CONSUMER 91ce427547f6] Particao=2 | Offset=902 | Sensor=sensor-01 | Temperatura=99.51 ┬░C | Vibracao=5.65
-consumer-2  | 2026-09-26T00:56:35.941291919Z [ALERTA] Consumer=91ce427547f6 | Sensor=sensor-01 | Temperatura=99.51 ┬░C
-producer-1  | 2026-09-26T00:56:26.254130843Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=820 | Temperatura=66.99 ┬░C | Vibracao=6.9
-producer-1  | 2026-09-26T00:56:26.254134040Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=812 | Temperatura=80.42 ┬░C | Vibracao=7.82
-producer-1  | 2026-09-26T00:56:26.254137747Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=813 | Temperatura=57.96 ┬░C | Vibracao=3.52
-producer-1  | 2026-09-26T00:56:26.254141355Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=815 | Temperatura=86.59 ┬░C | Vibracao=8.43
-producer-1  | 2026-09-26T00:56:26.254145142Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=883 | Temperatura=57.65 ┬░C | Vibracao=7.47
-consumer-2  | 2026-09-26T00:56:35.941298913Z [CONSUMER 91ce427547f6] Particao=2 | Offset=903 | Sensor=sensor-03 | Temperatura=85.89 ┬░C | Vibracao=7.19
-producer-1  | 2026-09-26T00:56:26.254148249Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=818 | Temperatura=28.87 ┬░C | Vibracao=2.32
-producer-1  | 2026-09-26T00:56:26.254152017Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=885 | Temperatura=53.12 ┬░C | Vibracao=7.9
-consumer-3  | 2026-09-26T00:56:47.868204013Z [CONSUMER 74f4d669531c] Particao=0 | Offset=840 | Sensor=sensor-01 | Temperatura=75.78 ┬░C | Vibracao=0.26
-producer-1  | 2026-09-26T00:56:26.254155554Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=824 | Temperatura=98.93 ┬░C | Vibracao=5.37
-consumer-2  | 2026-09-26T00:56:35.941305707Z [ALERTA] Consumer=91ce427547f6 | Sensor=sensor-03 | Temperatura=85.89 ┬░C
-consumer-2  | 2026-09-26T00:56:35.941341231Z [CONSUMER 91ce427547f6] Particao=2 | Offset=904 | Sensor=sensor-01 | Temperatura=56.37 ┬░C | Vibracao=4.06
-consumer-2  | 2026-09-26T00:56:35.941345860Z [CONSUMER 91ce427547f6] Particao=2 | Offset=905 | Sensor=sensor-03 | Temperatura=64.21 ┬░C | Vibracao=2.6
-producer-1  | 2026-09-26T00:56:26.254159051Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=887 | Temperatura=72.43 ┬░C | Vibracao=1.39
-producer-1  | 2026-09-26T00:56:26.254162638Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=827 | Temperatura=20.3 ┬░C | Vibracao=3.33
-consumer-2  | 2026-09-26T00:56:35.941349939Z [CONSUMER 91ce427547f6] Particao=2 | Offset=906 | Sensor=sensor-01 | Temperatura=76.85 ┬░C | Vibracao=7.78
-producer-1  | 2026-09-26T00:56:26.254166256Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=889 | Temperatura=50.75 ┬░C | Vibracao=6.36
-consumer-2  | 2026-09-26T00:56:35.941353807Z [CONSUMER 91ce427547f6] Particao=2 | Offset=907 | Sensor=sensor-02 | Temperatura=42.89 ┬░C | Vibracao=6.35
-consumer-2  | 2026-09-26T00:56:35.941357915Z [CONSUMER 91ce427547f6] Particao=2 | Offset=908 | Sensor=sensor-03 | Temperatura=21.94 ┬░C | Vibracao=0.57
-producer-1  | 2026-09-26T00:56:26.254172669Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=831 | Temperatura=26.73 ┬░C | Vibracao=6.7
-producer-1  | 2026-09-26T00:56:26.254176337Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=832 | Temperatura=67.49 ┬░C | Vibracao=1.87
-producer-1  | 2026-09-26T00:56:26.254179864Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=822 | Temperatura=26.61 ┬░C | Vibracao=4.78
-consumer-3  | 2026-09-26T00:56:47.868209304Z [CONSUMER 74f4d669531c] Particao=0 | Offset=841 | Sensor=sensor-02 | Temperatura=29.74 ┬░C | Vibracao=6.57
-producer-1  | 2026-09-26T00:56:26.254183301Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=895 | Temperatura=56.14 ┬░C | Vibracao=3.39
-producer-1  | 2026-09-26T00:56:26.254186938Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=825 | Temperatura=54.01 ┬░C | Vibracao=5.8
-consumer-2  | 2026-09-26T00:56:35.941361954Z [CONSUMER 91ce427547f6] Particao=2 | Offset=909 | Sensor=sensor-02 | Temperatura=98.47 ┬░C | Vibracao=0.69
-consumer-2  | 2026-09-26T00:56:35.941366102Z [ALERTA] Consumer=91ce427547f6 | Sensor=sensor-02 | Temperatura=98.47 ┬░C
-consumer-2  | 2026-09-26T00:56:35.941370060Z [CONSUMER 91ce427547f6] Particao=2 | Offset=910 | Sensor=sensor-01 | Temperatura=94.37 ┬░C | Vibracao=5.89
-consumer-2  | 2026-09-26T00:56:35.941374109Z [ALERTA] Consumer=91ce427547f6 | Sensor=sensor-01 | Temperatura=94.37 ┬░C
-producer-1  | 2026-09-26T00:56:26.254190426Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=897 | Temperatura=45.21 ┬░C | Vibracao=4.13
-consumer-2  | 2026-09-26T00:56:35.941380061Z [CONSUMER 91ce427547f6] Particao=2 | Offset=911 | Sensor=sensor-02 | Temperatura=43.07 ┬░C | Vibracao=8.75
-consumer-2  | 2026-09-26T00:56:35.941384240Z [CONSUMER 91ce427547f6] Particao=2 | Offset=912 | Sensor=sensor-02 | Temperatura=33.74 ┬░C | Vibracao=0.95
-consumer-2  | 2026-09-26T00:56:35.941388218Z [CONSUMER 91ce427547f6] Particao=2 | Offset=913 | Sensor=sensor-03 | Temperatura=48.77 ┬░C | Vibracao=6.31
-consumer-3  | 2026-09-26T00:56:47.868214685Z [CONSUMER 74f4d669531c] Particao=0 | Offset=842 | Sensor=sensor-03 | Temperatura=90.09 ┬░C | Vibracao=5.31
-producer-1  | 2026-09-26T00:56:26.254194053Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=837 | Temperatura=23.96 ┬░C | Vibracao=6.54
-consumer-2  | 2026-09-26T00:56:35.941392116Z [CONSUMER 91ce427547f6] Particao=2 | Offset=914 | Sensor=sensor-01 | Temperatura=77.79 ┬░C | Vibracao=1.79
-consumer-2  | 2026-09-26T00:56:35.941396124Z [CONSUMER 91ce427547f6] Particao=2 | Offset=915 | Sensor=sensor-01 | Temperatura=84.49 ┬░C | Vibracao=4.08
-producer-1  | 2026-09-26T00:56:26.254197310Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=838 | Temperatura=92.39 ┬░C | Vibracao=8.18
-producer-1  | 2026-09-26T00:56:26.254211940Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=899 | Temperatura=66.47 ┬░C | Vibracao=2.97
-consumer-3  | 2026-09-26T00:56:47.868220036Z [ALERTA] Consumer=74f4d669531c | Sensor=sensor-03 | Temperatura=90.09 ┬░C
-consumer-3  | 2026-09-26T00:56:47.868226760Z [CONSUMER 74f4d669531c] Particao=0 | Offset=843 | Sensor=sensor-02 | Temperatura=51.47 ┬░C | Vibracao=4.19
-producer-1  | 2026-09-26T00:56:26.254215668Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=840 | Temperatura=77.93 ┬░C | Vibracao=7.14
-producer-1  | 2026-09-26T00:56:26.254219525Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=902 | Temperatura=99.51 ┬░C | Vibracao=5.65
-producer-1  | 2026-09-26T00:56:26.254223163Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=904 | Temperatura=56.37 ┬░C | Vibracao=4.06
-producer-1  | 2026-09-26T00:56:26.254226440Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=843 | Temperatura=25.6 ┬░C | Vibracao=0.06
-producer-1  | 2026-09-26T00:56:26.254230147Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=831 | Temperatura=66.8 ┬░C | Vibracao=2.03
-producer-1  | 2026-09-26T00:56:26.254234226Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=906 | Temperatura=76.85 ┬░C | Vibracao=7.78
-producer-1  | 2026-09-26T00:56:26.254237302Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=847 | Temperatura=54.23 ┬░C | Vibracao=9.95
-producer-1  | 2026-09-26T00:56:26.254240579Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=910 | Temperatura=94.37 ┬░C | Vibracao=5.89
-producer-1  | 2026-09-26T00:56:26.254243986Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=832 | Temperatura=94.36 ┬░C | Vibracao=3.57
-producer-1  | 2026-09-26T00:56:26.254247293Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=850 | Temperatura=72.32 ┬░C | Vibracao=7.76
-consumer-3  | 2026-09-26T00:56:47.868232182Z [CONSUMER 74f4d669531c] Particao=0 | Offset=844 | Sensor=sensor-03 | Temperatura=32.14 ┬░C | Vibracao=0.99
-consumer-3  | 2026-09-26T00:56:47.868237783Z [CONSUMER 74f4d669531c] Particao=0 | Offset=845 | Sensor=sensor-01 | Temperatura=31.09 ┬░C | Vibracao=1.44
-consumer-2  | 2026-09-26T00:56:35.941400393Z [ALERTA] Consumer=91ce427547f6 | Sensor=sensor-01 | Temperatura=84.49 ┬░C
-consumer-2  | 2026-09-26T00:56:35.941407508Z [CONSUMER 91ce427547f6] Particao=2 | Offset=916 | Sensor=sensor-02 | Temperatura=64.11 ┬░C | Vibracao=7.03
-consumer-2  | 2026-09-26T00:56:35.941416537Z [CONSUMER 91ce427547f6] Particao=2 | Offset=917 | Sensor=sensor-03 | Temperatura=97.35 ┬░C | Vibracao=5.75
-consumer-2  | 2026-09-26T00:56:35.941420515Z [ALERTA] Consumer=91ce427547f6 | Sensor=sensor-03 | Temperatura=97.35 ┬░C
-consumer-2  | 2026-09-26T00:56:35.941424333Z [CONSUMER 91ce427547f6] Particao=2 | Offset=918 | Sensor=sensor-01 | Temperatura=73.18 ┬░C | Vibracao=7.9
-consumer-3  | 2026-09-26T00:56:47.868265281Z [CONSUMER 74f4d669531c] Particao=0 | Offset=846 | Sensor=sensor-03 | Temperatura=55.75 ┬░C | Vibracao=7.23
-producer-1  | 2026-09-26T00:56:26.254251642Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=837 | Temperatura=45.43 ┬░C | Vibracao=4.12
-producer-1  | 2026-09-26T00:56:26.254255109Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=840 | Temperatura=75.78 ┬░C | Vibracao=0.26
-consumer-3  | 2026-09-26T00:56:47.868269830Z [CONSUMER 74f4d669531c] Particao=0 | Offset=847 | Sensor=sensor-01 | Temperatura=29.07 ┬░C | Vibracao=6.81
-consumer-3  | 2026-09-26T00:56:47.868273448Z [CONSUMER 74f4d669531c] Particao=0 | Offset=848 | Sensor=sensor-03 | Temperatura=87.87 ┬░C | Vibracao=6.79
-consumer-3  | 2026-09-26T00:56:47.868276885Z [ALERTA] Consumer=74f4d669531c | Sensor=sensor-03 | Temperatura=87.87 ┬░C
-producer-1  | 2026-09-26T00:56:26.254258746Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=914 | Temperatura=77.79 ┬░C | Vibracao=1.79
-producer-1  | 2026-09-26T00:56:26.254262233Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=915 | Temperatura=84.49 ┬░C | Vibracao=4.08
-consumer-2  | 2026-09-26T00:56:35.941428401Z [CONSUMER 91ce427547f6] Particao=2 | Offset=919 | Sensor=sensor-02 | Temperatura=92.99 ┬░C | Vibracao=9.58
-producer-1  | 2026-09-26T00:56:26.254265560Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=853 | Temperatura=84.26 ┬░C | Vibracao=2.39
-producer-1  | 2026-09-26T00:56:26.254268586Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=845 | Temperatura=31.09 ┬░C | Vibracao=1.44
-consumer-3  | 2026-09-26T00:56:47.868280151Z [CONSUMER 74f4d669531c] Particao=0 | Offset=849 | Sensor=sensor-02 | Temperatura=37.5 ┬░C | Vibracao=6.47
-producer-1  | 2026-09-26T00:56:26.254271993Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=918 | Temperatura=73.18 ┬░C | Vibracao=7.9
-consumer-3  | 2026-09-26T00:56:47.868283488Z [CONSUMER 74f4d669531c] Particao=0 | Offset=850 | Sensor=sensor-03 | Temperatura=51.7 ┬░C | Vibracao=0.29
-producer-1  | 2026-09-26T00:56:26.254275581Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=847 | Temperatura=29.07 ┬░C | Vibracao=6.81
-consumer-2  | 2026-09-26T00:56:35.941432459Z [ALERTA] Consumer=91ce427547f6 | Sensor=sensor-02 | Temperatura=92.99 ┬░C
-producer-1  | 2026-09-26T00:56:26.254278697Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=854 | Temperatura=98.98 ┬░C | Vibracao=2.26
-consumer-2  | 2026-09-26T00:56:35.941436107Z [CONSUMER 91ce427547f6] Particao=2 | Offset=920 | Sensor=sensor-02 | Temperatura=50.22 ┬░C | Vibracao=0.94
-consumer-2  | 2026-09-26T00:56:35.941439694Z [CONSUMER 91ce427547f6] Particao=2 | Offset=921 | Sensor=sensor-03 | Temperatura=88.32 ┬░C | Vibracao=9.91
-consumer-2  | 2026-09-26T00:56:35.941443743Z [ALERTA] Consumer=91ce427547f6 | Sensor=sensor-03 | Temperatura=88.32 ┬░C
-producer-1  | 2026-09-26T00:56:26.254281914Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=855 | Temperatura=82.18 ┬░C | Vibracao=9.05
-producer-1  | 2026-09-26T00:56:26.254285782Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=852 | Temperatura=23.36 ┬░C | Vibracao=7.14
-producer-1  | 2026-09-26T00:56:26.254288898Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=923 | Temperatura=87.13 ┬░C | Vibracao=4.74
-producer-1  | 2026-09-26T00:56:26.254301083Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=854 | Temperatura=52.39 ┬░C | Vibracao=3.52
-consumer-2  | 2026-09-26T00:56:35.941460888Z [CONSUMER 91ce427547f6] Particao=2 | Offset=922 | Sensor=sensor-02 | Temperatura=73.4 ┬░C | Vibracao=1.77
-producer-1  | 2026-09-26T00:56:26.254304661Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=926 | Temperatura=33.57 ┬░C | Vibracao=0.81
-producer-1  | 2026-09-26T00:56:26.254308048Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=857 | Temperatura=51.95 ┬░C | Vibracao=7.55
-producer-1  | 2026-09-26T00:56:26.254311415Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=859 | Temperatura=71.71 ┬░C | Vibracao=6.45
-producer-1  | 2026-09-26T00:56:26.254314892Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=859 | Temperatura=95.97 ┬░C | Vibracao=4.44
-consumer-2  | 2026-09-26T00:56:35.941465097Z [CONSUMER 91ce427547f6] Particao=2 | Offset=923 | Sensor=sensor-01 | Temperatura=87.13 ┬░C | Vibracao=4.74
-consumer-2  | 2026-09-26T00:56:35.941468975Z [ALERTA] Consumer=91ce427547f6 | Sensor=sensor-01 | Temperatura=87.13 ┬░C
-producer-1  | 2026-09-26T00:56:26.254318188Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=862 | Temperatura=21.97 ┬░C | Vibracao=0.24
-consumer-2  | 2026-09-26T00:56:35.941472643Z [CONSUMER 91ce427547f6] Particao=2 | Offset=924 | Sensor=sensor-02 | Temperatura=82.99 ┬░C | Vibracao=5.34
-producer-1  | 2026-09-26T00:56:26.254321495Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=860 | Temperatura=31.5 ┬░C | Vibracao=6.84
-consumer-2  | 2026-09-26T00:56:35.941476280Z [ALERTA] Consumer=91ce427547f6 | Sensor=sensor-02 | Temperatura=82.99 ┬░C
-producer-1  | 2026-09-26T00:56:26.254326425Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=930 | Temperatura=86.13 ┬░C | Vibracao=3.55
-consumer-2  | 2026-09-26T00:56:35.941480038Z [CONSUMER 91ce427547f6] Particao=2 | Offset=925 | Sensor=sensor-03 | Temperatura=25.28 ┬░C | Vibracao=3.5
-producer-1  | 2026-09-26T00:56:26.254329943Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=863 | Temperatura=71.68 ┬░C | Vibracao=9.35
-consumer-2  | 2026-09-26T00:56:35.941485078Z [CONSUMER 91ce427547f6] Particao=2 | Offset=926 | Sensor=sensor-01 | Temperatura=33.57 ┬░C | Vibracao=0.81
-producer-1  | 2026-09-26T00:56:26.254334221Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=865 | Temperatura=96.62 ┬░C | Vibracao=2.4
-consumer-2  | 2026-09-26T00:56:35.941489407Z [CONSUMER 91ce427547f6] Particao=2 | Offset=927 | Sensor=sensor-02 | Temperatura=41.01 ┬░C | Vibracao=9.01
-consumer-3  | 2026-09-26T00:56:47.868286835Z [CONSUMER 74f4d669531c] Particao=0 | Offset=851 | Sensor=sensor-02 | Temperatura=20.13 ┬░C | Vibracao=2.88
-consumer-3  | 2026-09-26T00:56:47.868290202Z [CONSUMER 74f4d669531c] Particao=0 | Offset=852 | Sensor=sensor-01 | Temperatura=23.36 ┬░C | Vibracao=7.14
-producer-1  | 2026-09-26T00:56:26.254337869Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=867 | Temperatura=93.54 ┬░C | Vibracao=2.46
-consumer-2  | 2026-09-26T00:56:35.941493426Z [CONSUMER 91ce427547f6] Particao=2 | Offset=928 | Sensor=sensor-02 | Temperatura=89.27 ┬░C | Vibracao=8.52
-consumer-2  | 2026-09-26T00:56:35.941497715Z [ALERTA] Consumer=91ce427547f6 | Sensor=sensor-02 | Temperatura=89.27 ┬░C
-consumer-3  | 2026-09-26T00:56:47.868293589Z [CONSUMER 74f4d669531c] Particao=0 | Offset=853 | Sensor=sensor-03 | Temperatura=35.1 ┬░C | Vibracao=2.99
-consumer-2  | 2026-09-26T00:56:35.941502274Z [CONSUMER 91ce427547f6] Particao=2 | Offset=929 | Sensor=sensor-02 | Temperatura=82.07 ┬░C | Vibracao=6.52
-consumer-3  | 2026-09-26T00:56:47.868296896Z [CONSUMER 74f4d669531c] Particao=0 | Offset=854 | Sensor=sensor-01 | Temperatura=52.39 ┬░C | Vibracao=3.52
-consumer-2  | 2026-09-26T00:56:35.941506252Z [ALERTA] Consumer=91ce427547f6 | Sensor=sensor-02 | Temperatura=82.07 ┬░C
-consumer-3  | 2026-09-26T00:56:47.868300223Z [CONSUMER 74f4d669531c] Particao=0 | Offset=855 | Sensor=sensor-02 | Temperatura=38.4 ┬░C | Vibracao=1.66
-consumer-2  | 2026-09-26T00:56:35.941510070Z [CONSUMER 91ce427547f6] Particao=2 | Offset=930 | Sensor=sensor-01 | Temperatura=86.13 ┬░C | Vibracao=3.55
-consumer-3  | 2026-09-26T00:56:47.868303530Z [CONSUMER 74f4d669531c] Particao=0 | Offset=856 | Sensor=sensor-03 | Temperatura=96.65 ┬░C | Vibracao=4.44
-consumer-3  | 2026-09-26T00:56:47.868306877Z [ALERTA] Consumer=74f4d669531c | Sensor=sensor-03 | Temperatura=96.65 ┬░C
-consumer-3  | 2026-09-26T00:56:47.868310124Z [CONSUMER 74f4d669531c] Particao=0 | Offset=857 | Sensor=sensor-03 | Temperatura=34.08 ┬░C | Vibracao=3.73
-consumer-3  | 2026-09-26T00:56:47.868313441Z [CONSUMER 74f4d669531c] Particao=0 | Offset=858 | Sensor=sensor-03 | Temperatura=74.62 ┬░C | Vibracao=3.49
-producer-1  | 2026-09-26T00:56:26.254341506Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=869 | Temperatura=66.44 ┬░C | Vibracao=5.32
-consumer-3  | 2026-09-26T00:56:47.868316748Z [CONSUMER 74f4d669531c] Particao=0 | Offset=859 | Sensor=sensor-01 | Temperatura=95.97 ┬░C | Vibracao=4.44
-producer-1  | 2026-09-26T00:56:26.254345154Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=934 | Temperatura=31.63 ┬░C | Vibracao=0.8
-producer-1  | 2026-09-26T00:56:26.254348771Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=869 | Temperatura=45.47 ┬░C | Vibracao=6.92
-producer-1  | 2026-09-26T00:56:26.254352369Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=936 | Temperatura=69.71 ┬░C | Vibracao=8.05
-consumer-3  | 2026-09-26T00:56:47.868320085Z [ALERTA] Consumer=74f4d669531c | Sensor=sensor-01 | Temperatura=95.97 ┬░C
-producer-1  | 2026-09-26T00:56:26.254356016Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=871 | Temperatura=69.15 ┬░C | Vibracao=7.38
-consumer-3  | 2026-09-26T00:56:47.868323762Z [CONSUMER 74f4d669531c] Particao=0 | Offset=860 | Sensor=sensor-01 | Temperatura=31.5 ┬░C | Vibracao=6.84
-consumer-2  | 2026-09-26T00:56:35.941513818Z [ALERTA] Consumer=91ce427547f6 | Sensor=sensor-01 | Temperatura=86.13 ┬░C
-consumer-3  | 2026-09-26T00:56:47.868329945Z [CONSUMER 74f4d669531c] Particao=0 | Offset=861 | Sensor=sensor-02 | Temperatura=71.65 ┬░C | Vibracao=5.25
-consumer-3  | 2026-09-26T00:56:47.868333312Z [CONSUMER 74f4d669531c] Particao=0 | Offset=862 | Sensor=sensor-03 | Temperatura=92.72 ┬░C | Vibracao=8.14
-consumer-3  | 2026-09-26T00:56:47.868336739Z [ALERTA] Consumer=74f4d669531c | Sensor=sensor-03 | Temperatura=92.72 ┬░C
-consumer-2  | 2026-09-26T00:56:35.941517846Z [CONSUMER 91ce427547f6] Particao=2 | Offset=931 | Sensor=sensor-02 | Temperatura=88.08 ┬░C | Vibracao=2.28
-consumer-3  | 2026-09-26T00:56:47.868340086Z [CONSUMER 74f4d669531c] Particao=0 | Offset=863 | Sensor=sensor-01 | Temperatura=71.68 ┬░C | Vibracao=9.35
-consumer-3  | 2026-09-26T00:56:47.868343413Z [CONSUMER 74f4d669531c] Particao=0 | Offset=864 | Sensor=sensor-03 | Temperatura=60.43 ┬░C | Vibracao=4.37
-consumer-3  | 2026-09-26T00:56:47.868346720Z [CONSUMER 74f4d669531c] Particao=0 | Offset=865 | Sensor=sensor-01 | Temperatura=96.62 ┬░C | Vibracao=2.4
-consumer-2  | 2026-09-26T00:56:35.941521774Z [ALERTA] Consumer=91ce427547f6 | Sensor=sensor-02 | Temperatura=88.08 ┬░C
-consumer-3  | 2026-09-26T00:56:47.868357172Z [ALERTA] Consumer=74f4d669531c | Sensor=sensor-01 | Temperatura=96.62 ┬░C
-producer-1  | 2026-09-26T00:56:26.254359634Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=938 | Temperatura=57.81 ┬░C | Vibracao=7.31
-consumer-3  | 2026-09-26T00:56:47.868360519Z [CONSUMER 74f4d669531c] Particao=0 | Offset=866 | Sensor=sensor-02 | Temperatura=92.93 ┬░C | Vibracao=6.67
-producer-1  | 2026-09-26T00:56:26.254363191Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=874 | Temperatura=88.63 ┬░C | Vibracao=8.51
-consumer-3  | 2026-09-26T00:56:47.868363846Z [ALERTA] Consumer=74f4d669531c | Sensor=sensor-02 | Temperatura=92.93 ┬░C
-consumer-2  | 2026-09-26T00:56:35.941526244Z [CONSUMER 91ce427547f6] Particao=2 | Offset=932 | Sensor=sensor-03 | Temperatura=32.12 ┬░C | Vibracao=6.23
-producer-1  | 2026-09-26T00:56:26.254366708Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=875 | Temperatura=26.21 ┬░C | Vibracao=6.93
-producer-1  | 2026-09-26T00:56:26.254370346Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=877 | Temperatura=36.89 ┬░C | Vibracao=6.65
-consumer-3  | 2026-09-26T00:56:47.868367253Z [CONSUMER 74f4d669531c] Particao=0 | Offset=867 | Sensor=sensor-02 | Temperatura=26.93 ┬░C | Vibracao=6.97
-consumer-3  | 2026-09-26T00:56:47.868370560Z [CONSUMER 74f4d669531c] Particao=0 | Offset=868 | Sensor=sensor-03 | Temperatura=84.47 ┬░C | Vibracao=6.53
-producer-1  | 2026-09-26T00:56:26.254373853Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=880 | Temperatura=44.43 ┬░C | Vibracao=3.59
-consumer-3  | 2026-09-26T00:56:47.868373927Z [ALERTA] Consumer=74f4d669531c | Sensor=sensor-03 | Temperatura=84.47 ┬░C
-consumer-3  | 2026-09-26T00:56:47.868377193Z [CONSUMER 74f4d669531c] Particao=0 | Offset=869 | Sensor=sensor-01 | Temperatura=45.47 ┬░C | Vibracao=6.92
-consumer-3  | 2026-09-26T00:56:47.868380500Z [CONSUMER 74f4d669531c] Particao=0 | Offset=870 | Sensor=sensor-03 | Temperatura=99.29 ┬░C | Vibracao=5.38
-producer-1  | 2026-09-26T00:56:26.254377510Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=943 | Temperatura=74.84 ┬░C | Vibracao=4.91
-consumer-2  | 2026-09-26T00:56:35.941530382Z [CONSUMER 91ce427547f6] Particao=2 | Offset=933 | Sensor=sensor-03 | Temperatura=89.91 ┬░C | Vibracao=3.31
-producer-1  | 2026-09-26T00:56:26.254381218Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=875 | Temperatura=37.08 ┬░C | Vibracao=1.69
-consumer-3  | 2026-09-26T00:56:47.868383847Z [ALERTA] Consumer=74f4d669531c | Sensor=sensor-03 | Temperatura=99.29 ┬░C
-consumer-3  | 2026-09-26T00:56:47.868387204Z [CONSUMER 74f4d669531c] Particao=0 | Offset=871 | Sensor=sensor-02 | Temperatura=56.2 ┬░C | Vibracao=3.06
-consumer-3  | 2026-09-26T00:56:47.868390511Z [CONSUMER 74f4d669531c] Particao=0 | Offset=872 | Sensor=sensor-03 | Temperatura=73.84 ┬░C | Vibracao=4.07
-producer-1  | 2026-09-26T00:56:26.254395016Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=946 | Temperatura=64.51 ┬░C | Vibracao=7.75
-producer-1  | 2026-09-26T00:56:26.254399927Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=878 | Temperatura=50.37 ┬░C | Vibracao=5.8
-consumer-3  | 2026-09-26T00:56:47.868393818Z [CONSUMER 74f4d669531c] Particao=0 | Offset=873 | Sensor=sensor-02 | Temperatura=80.64 ┬░C | Vibracao=4.68
-producer-1  | 2026-09-26T00:56:26.254403975Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=880 | Temperatura=74.59 ┬░C | Vibracao=5.32
-consumer-2  | 2026-09-26T00:56:35.941534370Z [ALERTA] Consumer=91ce427547f6 | Sensor=sensor-03 | Temperatura=89.91 ┬░C
-consumer-2  | 2026-09-26T00:56:35.941538459Z [CONSUMER 91ce427547f6] Particao=2 | Offset=934 | Sensor=sensor-01 | Temperatura=31.63 ┬░C | Vibracao=0.8
-consumer-2  | 2026-09-26T00:56:35.941542638Z [CONSUMER 91ce427547f6] Particao=2 | Offset=935 | Sensor=sensor-02 | Temperatura=21.46 ┬░C | Vibracao=7.99
-consumer-3  | 2026-09-26T00:56:47.868397135Z [ALERTA] Consumer=74f4d669531c | Sensor=sensor-02 | Temperatura=80.64 ┬░C
-consumer-2  | 2026-09-26T00:56:35.941546756Z [CONSUMER 91ce427547f6] Particao=2 | Offset=936 | Sensor=sensor-01 | Temperatura=69.71 ┬░C | Vibracao=8.05
-consumer-3  | 2026-09-26T00:56:47.868400392Z [CONSUMER 74f4d669531c] Particao=0 | Offset=874 | Sensor=sensor-01 | Temperatura=88.63 ┬░C | Vibracao=8.51
-consumer-3  | 2026-09-26T00:56:47.868404129Z [ALERTA] Consumer=74f4d669531c | Sensor=sensor-01 | Temperatura=88.63 ┬░C
-consumer-3  | 2026-09-26T00:56:47.868407426Z [CONSUMER 74f4d669531c] Particao=0 | Offset=875 | Sensor=sensor-01 | Temperatura=26.21 ┬░C | Vibracao=6.93
-consumer-3  | 2026-09-26T00:56:47.868410733Z [CONSUMER 74f4d669531c] Particao=0 | Offset=876 | Sensor=sensor-02 | Temperatura=76.95 ┬░C | Vibracao=1.22
-consumer-3  | 2026-09-26T00:56:47.868414040Z [CONSUMER 74f4d669531c] Particao=0 | Offset=877 | Sensor=sensor-01 | Temperatura=36.89 ┬░C | Vibracao=6.65
-consumer-2  | 2026-09-26T00:56:35.941550654Z [CONSUMER 91ce427547f6] Particao=2 | Offset=937 | Sensor=sensor-03 | Temperatura=50.41 ┬░C | Vibracao=4.0
-consumer-3  | 2026-09-26T00:56:47.868417367Z [CONSUMER 74f4d669531c] Particao=0 | Offset=878 | Sensor=sensor-02 | Temperatura=44.74 ┬░C | Vibracao=5.39
-consumer-3  | 2026-09-26T00:56:47.868420674Z [CONSUMER 74f4d669531c] Particao=0 | Offset=879 | Sensor=sensor-03 | Temperatura=81.75 ┬░C | Vibracao=5.24
-consumer-3  | 2026-09-26T00:56:47.868423991Z [ALERTA] Consumer=74f4d669531c | Sensor=sensor-03 | Temperatura=81.75 ┬░C
-consumer-2  | 2026-09-26T00:56:35.941554713Z [CONSUMER 91ce427547f6] Particao=2 | Offset=938 | Sensor=sensor-01 | Temperatura=57.81 ┬░C | Vibracao=7.31
-consumer-3  | 2026-09-26T00:56:47.868427268Z [CONSUMER 74f4d669531c] Particao=0 | Offset=880 | Sensor=sensor-01 | Temperatura=44.43 ┬░C | Vibracao=3.59
-consumer-2  | 2026-09-26T00:56:35.941558510Z [CONSUMER 91ce427547f6] Particao=2 | Offset=939 | Sensor=sensor-02 | Temperatura=83.66 ┬░C | Vibracao=4.16
-consumer-3  | 2026-09-26T00:56:47.868430564Z [CONSUMER 74f4d669531c] Particao=0 | Offset=881 | Sensor=sensor-03 | Temperatura=91.09 ┬░C | Vibracao=4.17
-consumer-3  | 2026-09-26T00:56:47.868433891Z [ALERTA] Consumer=74f4d669531c | Sensor=sensor-03 | Temperatura=91.09 ┬░C
-consumer-3  | 2026-09-26T00:56:47.868437188Z [CONSUMER 74f4d669531c] Particao=0 | Offset=882 | Sensor=sensor-02 | Temperatura=83.73 ┬░C | Vibracao=9.1
-consumer-3  | 2026-09-26T00:56:47.868447410Z [ALERTA] Consumer=74f4d669531c | Sensor=sensor-02 | Temperatura=83.73 ┬░C
-consumer-2  | 2026-09-26T00:56:35.941572840Z [ALERTA] Consumer=91ce427547f6 | Sensor=sensor-02 | Temperatura=83.66 ┬░C
-consumer-3  | 2026-09-26T00:56:47.868450756Z [CONSUMER 74f4d669531c] Particao=0 | Offset=883 | Sensor=sensor-02 | Temperatura=70.36 ┬░C | Vibracao=4.89
-consumer-2  | 2026-09-26T00:56:35.941576798Z [CONSUMER 91ce427547f6] Particao=2 | Offset=940 | Sensor=sensor-02 | Temperatura=58.11 ┬░C | Vibracao=3.52
-consumer-3  | 2026-09-26T00:56:47.868454073Z [CONSUMER 74f4d669531c] Particao=0 | Offset=884 | Sensor=sensor-03 | Temperatura=44.45 ┬░C | Vibracao=3.9
-consumer-3  | 2026-09-26T00:56:47.868457400Z [CONSUMER 74f4d669531c] Particao=0 | Offset=885 | Sensor=sensor-01 | Temperatura=86.0 ┬░C | Vibracao=6.49
-consumer-2  | 2026-09-26T00:56:35.941582881Z [CONSUMER 91ce427547f6] Particao=2 | Offset=941 | Sensor=sensor-03 | Temperatura=76.58 ┬░C | Vibracao=4.68
-consumer-3  | 2026-09-26T00:56:47.868460767Z [ALERTA] Consumer=74f4d669531c | Sensor=sensor-01 | Temperatura=86.0 ┬░C
-consumer-2  | 2026-09-26T00:56:35.941586919Z [CONSUMER 91ce427547f6] Particao=2 | Offset=942 | Sensor=sensor-03 | Temperatura=60.54 ┬░C | Vibracao=1.24
-consumer-3  | 2026-09-26T00:56:47.868464024Z [CONSUMER 74f4d669531c] Particao=0 | Offset=886 | Sensor=sensor-02 | Temperatura=43.62 ┬░C | Vibracao=2.64
-consumer-3  | 2026-09-26T00:56:47.868467321Z [CONSUMER 74f4d669531c] Particao=0 | Offset=887 | Sensor=sensor-01 | Temperatura=23.41 ┬░C | Vibracao=8.79
-consumer-2  | 2026-09-26T00:56:35.941590898Z [CONSUMER 91ce427547f6] Particao=2 | Offset=943 | Sensor=sensor-01 | Temperatura=74.84 ┬░C | Vibracao=4.91
-consumer-2  | 2026-09-26T00:56:35.941594856Z [CONSUMER 91ce427547f6] Particao=2 | Offset=944 | Sensor=sensor-02 | Temperatura=71.74 ┬░C | Vibracao=0.32
-consumer-3  | 2026-09-26T00:56:47.868470618Z [CONSUMER 74f4d669531c] Particao=0 | Offset=888 | Sensor=sensor-01 | Temperatura=33.65 ┬░C | Vibracao=2.14
-consumer-2  | 2026-09-26T00:56:35.941599676Z [CONSUMER 91ce427547f6] Particao=2 | Offset=945 | Sensor=sensor-03 | Temperatura=76.3 ┬░C | Vibracao=1.68
-consumer-3  | 2026-09-26T00:56:47.868473965Z [CONSUMER 74f4d669531c] Particao=0 | Offset=889 | Sensor=sensor-02 | Temperatura=85.58 ┬░C | Vibracao=3.64
-consumer-2  | 2026-09-26T00:56:35.941604065Z [CONSUMER 91ce427547f6] Particao=2 | Offset=946 | Sensor=sensor-01 | Temperatura=64.51 ┬░C | Vibracao=7.75
-consumer-2  | 2026-09-26T00:56:35.941608334Z [CONSUMER 91ce427547f6] Particao=2 | Offset=947 | Sensor=sensor-03 | Temperatura=66.85 ┬░C | Vibracao=9.6
-consumer-3  | 2026-09-26T00:56:47.868477272Z [ALERTA] Consumer=74f4d669531c | Sensor=sensor-02 | Temperatura=85.58 ┬░C
-consumer-2  | 2026-09-26T00:56:35.941612192Z [CONSUMER 91ce427547f6] Particao=2 | Offset=948 | Sensor=sensor-03 | Temperatura=52.19 ┬░C | Vibracao=5.19
-consumer-2  | 2026-09-26T00:56:35.941616420Z [CONSUMER 91ce427547f6] Particao=2 | Offset=949 | Sensor=sensor-03 | Temperatura=56.66 ┬░C | Vibracao=7.2
-consumer-2  | 2026-09-26T00:56:35.941620359Z [CONSUMER 91ce427547f6] Particao=2 | Offset=950 | Sensor=sensor-01 | Temperatura=84.32 ┬░C | Vibracao=6.85
-consumer-2  | 2026-09-26T00:56:35.941624297Z [ALERTA] Consumer=91ce427547f6 | Sensor=sensor-01 | Temperatura=84.32 ┬░C
-consumer-2  | 2026-09-26T00:56:35.941627954Z [CONSUMER 91ce427547f6] Particao=2 | Offset=951 | Sensor=sensor-02 | Temperatura=89.28 ┬░C | Vibracao=2.13
-consumer-2  | 2026-09-26T00:56:35.941636412Z [ALERTA] Consumer=91ce427547f6 | Sensor=sensor-02 | Temperatura=89.28 ┬░C
-consumer-2  | 2026-09-26T00:56:35.941644388Z [CONSUMER 91ce427547f6] Particao=2 | Offset=952 | Sensor=sensor-01 | Temperatura=98.92 ┬░C | Vibracao=6.61
-consumer-2  | 2026-09-26T00:56:35.941648316Z [ALERTA] Consumer=91ce427547f6 | Sensor=sensor-01 | Temperatura=98.92 ┬░C
-consumer-2  | 2026-09-26T00:56:35.941652194Z [CONSUMER 91ce427547f6] Particao=2 | Offset=953 | Sensor=sensor-03 | Temperatura=83.54 ┬░C | Vibracao=6.98
-consumer-2  | 2026-09-26T00:56:35.941655842Z [ALERTA] Consumer=91ce427547f6 | Sensor=sensor-03 | Temperatura=83.54 ┬░C
-consumer-2  | 2026-09-26T00:56:35.941659439Z [CONSUMER 91ce427547f6] Particao=2 | Offset=954 | Sensor=sensor-01 | Temperatura=39.77 ┬░C | Vibracao=2.74
-consumer-2  | 2026-09-26T00:56:35.941663327Z [CONSUMER 91ce427547f6] Particao=2 | Offset=955 | Sensor=sensor-03 | Temperatura=37.24 ┬░C | Vibracao=5.54
-consumer-2  | 2026-09-26T00:56:35.941667115Z [CONSUMER 91ce427547f6] Particao=2 | Offset=956 | Sensor=sensor-01 | Temperatura=95.73 ┬░C | Vibracao=4.08
-consumer-2  | 2026-09-26T00:56:35.941671244Z [ALERTA] Consumer=91ce427547f6 | Sensor=sensor-01 | Temperatura=95.73 ┬░C
-consumer-1  | 2026-09-26T00:56:31.809482982Z [ALERTA] Consumer=f9ab91736d0e | Sensor=sensor-02 | Temperatura=90.56 ┬░C
-consumer-1  | 2026-09-26T00:56:31.809599453Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=818 | Sensor=sensor-03 | Temperatura=22.93 ┬░C | Vibracao=0.72
-consumer-1  | 2026-09-26T00:56:31.809612070Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=819 | Sensor=sensor-02 | Temperatura=49.34 ┬░C | Vibracao=7.88
-consumer-1  | 2026-09-26T00:56:31.809617250Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=820 | Sensor=sensor-01 | Temperatura=66.99 ┬░C | Vibracao=6.9
-consumer-1  | 2026-09-26T00:56:31.809622150Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=821 | Sensor=sensor-02 | Temperatura=40.15 ┬░C | Vibracao=9.18
-consumer-1  | 2026-09-26T00:56:31.809626870Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=822 | Sensor=sensor-02 | Temperatura=78.55 ┬░C | Vibracao=3.87
-consumer-1  | 2026-09-26T00:56:31.809631520Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=823 | Sensor=sensor-02 | Temperatura=86.88 ┬░C | Vibracao=0.8
-consumer-1  | 2026-09-26T00:56:31.809636079Z [ALERTA] Consumer=f9ab91736d0e | Sensor=sensor-02 | Temperatura=86.88 ┬░C
-consumer-1  | 2026-09-26T00:56:31.809640809Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=824 | Sensor=sensor-01 | Temperatura=98.93 ┬░C | Vibracao=5.37
-consumer-1  | 2026-09-26T00:56:31.809645308Z [ALERTA] Consumer=f9ab91736d0e | Sensor=sensor-01 | Temperatura=98.93 ┬░C
-consumer-1  | 2026-09-26T00:56:31.809649727Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=825 | Sensor=sensor-03 | Temperatura=21.21 ┬░C | Vibracao=3.07
-consumer-1  | 2026-09-26T00:56:31.809671673Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=826 | Sensor=sensor-02 | Temperatura=79.18 ┬░C | Vibracao=9.04
-consumer-1  | 2026-09-26T00:56:31.809674709Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=827 | Sensor=sensor-01 | Temperatura=20.3 ┬░C | Vibracao=3.33
-consumer-1  | 2026-09-26T00:56:31.809677585Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=828 | Sensor=sensor-02 | Temperatura=50.89 ┬░C | Vibracao=9.64
-consumer-1  | 2026-09-26T00:56:31.809680491Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=829 | Sensor=sensor-03 | Temperatura=84.58 ┬░C | Vibracao=4.84
-consumer-1  | 2026-09-26T00:56:31.809683297Z [ALERTA] Consumer=f9ab91736d0e | Sensor=sensor-03 | Temperatura=84.58 ┬░C
-consumer-1  | 2026-09-26T00:56:31.809686033Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=830 | Sensor=sensor-03 | Temperatura=31.17 ┬░C | Vibracao=3.29
-consumer-1  | 2026-09-26T00:56:31.809688808Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=831 | Sensor=sensor-01 | Temperatura=26.73 ┬░C | Vibracao=6.7
-consumer-1  | 2026-09-26T00:56:31.809691644Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=832 | Sensor=sensor-01 | Temperatura=67.49 ┬░C | Vibracao=1.87
-consumer-1  | 2026-09-26T00:56:31.809694420Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=833 | Sensor=sensor-03 | Temperatura=43.3 ┬░C | Vibracao=9.17
-consumer-1  | 2026-09-26T00:56:31.809697216Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=834 | Sensor=sensor-03 | Temperatura=43.19 ┬░C | Vibracao=6.49
-consumer-1  | 2026-09-26T00:56:31.809701946Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=835 | Sensor=sensor-02 | Temperatura=48.9 ┬░C | Vibracao=8.68
-consumer-1  | 2026-09-26T00:56:31.809704801Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=836 | Sensor=sensor-03 | Temperatura=24.91 ┬░C | Vibracao=8.63
-consumer-1  | 2026-09-26T00:56:31.809707617Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=837 | Sensor=sensor-01 | Temperatura=23.96 ┬░C | Vibracao=6.54
-consumer-1  | 2026-09-26T00:56:31.809710393Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=838 | Sensor=sensor-01 | Temperatura=92.39 ┬░C | Vibracao=8.18
-consumer-1  | 2026-09-26T00:56:31.809713199Z [ALERTA] Consumer=f9ab91736d0e | Sensor=sensor-01 | Temperatura=92.39 ┬░C
-consumer-1  | 2026-09-26T00:56:31.809715955Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=839 | Sensor=sensor-03 | Temperatura=51.59 ┬░C | Vibracao=5.85
-consumer-1  | 2026-09-26T00:56:31.809718750Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=840 | Sensor=sensor-01 | Temperatura=77.93 ┬░C | Vibracao=7.14
-consumer-1  | 2026-09-26T00:56:31.809721656Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=841 | Sensor=sensor-02 | Temperatura=27.5 ┬░C | Vibracao=7.99
-consumer-1  | 2026-09-26T00:56:31.809724472Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=842 | Sensor=sensor-02 | Temperatura=35.4 ┬░C | Vibracao=7.45
-consumer-1  | 2026-09-26T00:56:31.809727248Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=843 | Sensor=sensor-01 | Temperatura=25.6 ┬░C | Vibracao=0.06
-consumer-1  | 2026-09-26T00:56:31.809730034Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=844 | Sensor=sensor-02 | Temperatura=76.06 ┬░C | Vibracao=9.91
-consumer-1  | 2026-09-26T00:56:31.809732870Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=845 | Sensor=sensor-02 | Temperatura=92.64 ┬░C | Vibracao=2.97
-consumer-1  | 2026-09-26T00:56:31.809735675Z [ALERTA] Consumer=f9ab91736d0e | Sensor=sensor-02 | Temperatura=92.64 ┬░C
-consumer-1  | 2026-09-26T00:56:31.809738501Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=846 | Sensor=sensor-03 | Temperatura=79.03 ┬░C | Vibracao=4.71
-consumer-1  | 2026-09-26T00:56:31.809747259Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=847 | Sensor=sensor-01 | Temperatura=54.23 ┬░C | Vibracao=9.95
-consumer-1  | 2026-09-26T00:56:31.809750216Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=848 | Sensor=sensor-03 | Temperatura=31.19 ┬░C | Vibracao=1.54
-consumer-1  | 2026-09-26T00:56:31.809753001Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=849 | Sensor=sensor-03 | Temperatura=95.49 ┬░C | Vibracao=9.31
-consumer-1  | 2026-09-26T00:56:31.809755787Z [ALERTA] Consumer=f9ab91736d0e | Sensor=sensor-03 | Temperatura=95.49 ┬░C
-consumer-1  | 2026-09-26T00:56:31.809758503Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=850 | Sensor=sensor-01 | Temperatura=72.32 ┬░C | Vibracao=7.76
-consumer-1  | 2026-09-26T00:56:31.809761389Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=851 | Sensor=sensor-02 | Temperatura=66.58 ┬░C | Vibracao=5.84
-consumer-1  | 2026-09-26T00:56:31.809764736Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=852 | Sensor=sensor-03 | Temperatura=99.92 ┬░C | Vibracao=8.05
-consumer-1  | 2026-09-26T00:56:31.809767591Z [ALERTA] Consumer=f9ab91736d0e | Sensor=sensor-03 | Temperatura=99.92 ┬░C
-consumer-1  | 2026-09-26T00:56:31.809770327Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=853 | Sensor=sensor-01 | Temperatura=84.26 ┬░C | Vibracao=2.39
-consumer-1  | 2026-09-26T00:56:31.809773113Z [ALERTA] Consumer=f9ab91736d0e | Sensor=sensor-01 | Temperatura=84.26 ┬░C
-consumer-1  | 2026-09-26T00:56:31.809775839Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=854 | Sensor=sensor-01 | Temperatura=98.98 ┬░C | Vibracao=2.26
-consumer-1  | 2026-09-26T00:56:31.809778624Z [ALERTA] Consumer=f9ab91736d0e | Sensor=sensor-01 | Temperatura=98.98 ┬░C
-consumer-1  | 2026-09-26T00:56:31.809781340Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=855 | Sensor=sensor-01 | Temperatura=82.18 ┬░C | Vibracao=9.05
-consumer-1  | 2026-09-26T00:56:31.809784136Z [ALERTA] Consumer=f9ab91736d0e | Sensor=sensor-01 | Temperatura=82.18 ┬░C
-consumer-1  | 2026-09-26T00:56:31.809786861Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=856 | Sensor=sensor-03 | Temperatura=91.59 ┬░C | Vibracao=1.4
-consumer-1  | 2026-09-26T00:56:31.809789647Z [ALERTA] Consumer=f9ab91736d0e | Sensor=sensor-03 | Temperatura=91.59 ┬░C
-consumer-1  | 2026-09-26T00:56:31.809792383Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=857 | Sensor=sensor-01 | Temperatura=51.95 ┬░C | Vibracao=7.55
-consumer-1  | 2026-09-26T00:56:31.809795159Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=858 | Sensor=sensor-02 | Temperatura=85.91 ┬░C | Vibracao=4.98
-consumer-1  | 2026-09-26T00:56:31.809797944Z [ALERTA] Consumer=f9ab91736d0e | Sensor=sensor-02 | Temperatura=85.91 ┬░C
-consumer-1  | 2026-09-26T00:56:31.809800670Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=859 | Sensor=sensor-01 | Temperatura=71.71 ┬░C | Vibracao=6.45
-consumer-1  | 2026-09-26T00:56:31.809803446Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=860 | Sensor=sensor-02 | Temperatura=43.43 ┬░C | Vibracao=4.52
-consumer-1  | 2026-09-26T00:56:31.809806302Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=861 | Sensor=sensor-03 | Temperatura=88.96 ┬░C | Vibracao=7.63
-consumer-1  | 2026-09-26T00:56:31.809809097Z [ALERTA] Consumer=f9ab91736d0e | Sensor=sensor-03 | Temperatura=88.96 ┬░C
-consumer-1  | 2026-09-26T00:56:31.809811833Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=862 | Sensor=sensor-01 | Temperatura=21.97 ┬░C | Vibracao=0.24
-consumer-1  | 2026-09-26T00:56:31.809814849Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=863 | Sensor=sensor-03 | Temperatura=43.94 ┬░C | Vibracao=5.47
-consumer-1  | 2026-09-26T00:56:31.809823417Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=864 | Sensor=sensor-03 | Temperatura=43.35 ┬░C | Vibracao=7.41
-consumer-1  | 2026-09-26T00:56:31.809826313Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=865 | Sensor=sensor-02 | Temperatura=77.41 ┬░C | Vibracao=7.14
-consumer-1  | 2026-09-26T00:56:31.809829890Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=866 | Sensor=sensor-02 | Temperatura=40.78 ┬░C | Vibracao=9.94
-consumer-1  | 2026-09-26T00:56:31.809832686Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=867 | Sensor=sensor-01 | Temperatura=93.54 ┬░C | Vibracao=2.46
-consumer-1  | 2026-09-26T00:56:31.809835482Z [ALERTA] Consumer=f9ab91736d0e | Sensor=sensor-01 | Temperatura=93.54 ┬░C
-consumer-1  | 2026-09-26T00:56:31.809838218Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=868 | Sensor=sensor-03 | Temperatura=88.81 ┬░C | Vibracao=5.89
-consumer-1  | 2026-09-26T00:56:31.809840993Z [ALERTA] Consumer=f9ab91736d0e | Sensor=sensor-03 | Temperatura=88.81 ┬░C
-consumer-1  | 2026-09-26T00:56:31.809843719Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=869 | Sensor=sensor-01 | Temperatura=66.44 ┬░C | Vibracao=5.32
-consumer-1  | 2026-09-26T00:56:31.809846986Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=870 | Sensor=sensor-02 | Temperatura=61.59 ┬░C | Vibracao=8.91
-consumer-1  | 2026-09-26T00:56:31.809850563Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=871 | Sensor=sensor-01 | Temperatura=69.15 ┬░C | Vibracao=7.38
-consumer-1  | 2026-09-26T00:56:31.809854101Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=872 | Sensor=sensor-03 | Temperatura=20.85 ┬░C | Vibracao=4.86
-consumer-1  | 2026-09-26T00:56:31.809865254Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=873 | Sensor=sensor-02 | Temperatura=39.67 ┬░C | Vibracao=8.31
-consumer-1  | 2026-09-26T00:56:31.809868781Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=874 | Sensor=sensor-03 | Temperatura=49.94 ┬░C | Vibracao=4.12
-consumer-1  | 2026-09-26T00:56:31.809872068Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=875 | Sensor=sensor-01 | Temperatura=37.08 ┬░C | Vibracao=1.69
-consumer-1  | 2026-09-26T00:56:31.809875545Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=876 | Sensor=sensor-02 | Temperatura=31.32 ┬░C | Vibracao=5.43
-consumer-1  | 2026-09-26T00:56:31.809878832Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=877 | Sensor=sensor-02 | Temperatura=70.61 ┬░C | Vibracao=7.44
-consumer-1  | 2026-09-26T00:56:31.809882219Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=878 | Sensor=sensor-01 | Temperatura=50.37 ┬░C | Vibracao=5.8
-consumer-1  | 2026-09-26T00:56:31.809885686Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=879 | Sensor=sensor-02 | Temperatura=94.86 ┬░C | Vibracao=9.57
-consumer-1  | 2026-09-26T00:56:31.809889364Z [ALERTA] Consumer=f9ab91736d0e | Sensor=sensor-02 | Temperatura=94.86 ┬░C
-consumer-1  | 2026-09-26T00:56:31.809897330Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=880 | Sensor=sensor-01 | Temperatura=74.59 ┬░C | Vibracao=5.32
-consumer-1  | 2026-09-26T00:56:31.809903583Z [CONSUMER f9ab91736d0e] Particao=1 | Offset=881 | Sensor=sensor-03 | Temperatura=99.35 ┬░C | Vibracao=6.76
-consumer-1  | 2026-09-26T00:56:31.809907090Z [ALERTA] Consumer=f9ab91736d0e | Sensor=sensor-03 | Temperatura=99.35 ┬░C
+﻿producer-1  | 2026-09-26T02:13:04.111116051Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=4 | Temperatura=93.33 ┬░C | Vibracao=4.06
+producer-1  | 2026-09-26T02:13:06.129476782Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=3 | Temperatura=96.62 ┬░C | Vibracao=0.1
+producer-1  | 2026-09-26T02:13:08.146224238Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=5 | Temperatura=77.45 ┬░C | Vibracao=4.27
+consumer-3  | 2026-09-26T02:13:29.339988265Z Consumer iniciado: 39a24bf4e92c
+consumer-3  | 2026-09-26T02:13:29.340155761Z Topico: dados-sensores
+consumer-3  | 2026-09-26T02:13:29.340165631Z Grupo: processadores-sensores
+consumer-1  | 2026-09-26T02:13:04.109691620Z [CONSUMER c09c05e99dcc] Particao=2 | Offset=4 | Sensor=sensor-01 | Temperatura=93.33 ┬░C | Vibracao=4.06
+consumer-3  | 2026-09-26T02:13:29.417545267Z /app/consumer.py:59: DeprecationWarning: value_deserializer does not implement kafka.serializer.Deserializer
+consumer-1  | 2026-09-26T02:13:04.109788881Z [ALERTA] Consumer=c09c05e99dcc | Sensor=sensor-01 | Temperatura=93.33 ┬░C
+consumer-1  | 2026-09-26T02:13:06.129392130Z [CONSUMER c09c05e99dcc] Particao=0 | Offset=3 | Sensor=sensor-01 | Temperatura=96.62 ┬░C | Vibracao=0.1
+consumer-2  | 2026-09-26T02:13:30.321831787Z Consumer iniciado: a15a28426248
+consumer-1  | 2026-09-26T02:13:06.129506065Z [ALERTA] Consumer=c09c05e99dcc | Sensor=sensor-01 | Temperatura=96.62 ┬░C
+consumer-2  | 2026-09-26T02:13:30.322097856Z Topico: dados-sensores
+consumer-1  | 2026-09-26T02:13:08.146825274Z [CONSUMER c09c05e99dcc] Particao=2 | Offset=5 | Sensor=sensor-01 | Temperatura=77.45 ┬░C | Vibracao=4.27
+consumer-1  | 2026-09-26T02:13:10.167370081Z [CONSUMER c09c05e99dcc] Particao=0 | Offset=4 | Sensor=sensor-01 | Temperatura=63.65 ┬░C | Vibracao=1.47
+consumer-3  | 2026-09-26T02:13:29.417710959Z   return KafkaConsumer(
+consumer-3  | 2026-09-26T02:13:34.453026614Z [CONSUMER 39a24bf4e92c] Particao=2 | Offset=9 | Sensor=sensor-01 | Temperatura=65.68 ┬░C | Vibracao=5.28
+consumer-3  | 2026-09-26T02:13:40.529362805Z [CONSUMER 39a24bf4e92c] Particao=2 | Offset=10 | Sensor=sensor-01 | Temperatura=48.49 ┬░C | Vibracao=3.86
+consumer-1  | 2026-09-26T02:13:12.187493571Z [CONSUMER c09c05e99dcc] Particao=1 | Offset=3 | Sensor=sensor-01 | Temperatura=43.16 ┬░C | Vibracao=8.48
+consumer-3  | 2026-09-26T02:13:42.546317971Z [CONSUMER 39a24bf4e92c] Particao=2 | Offset=11 | Sensor=sensor-01 | Temperatura=55.34 ┬░C | Vibracao=4.61
+consumer-3  | 2026-09-26T02:13:56.711778836Z [CONSUMER 39a24bf4e92c] Particao=2 | Offset=12 | Sensor=sensor-01 | Temperatura=73.08 ┬░C | Vibracao=1.54
+consumer-1  | 2026-09-26T02:13:14.219843763Z [CONSUMER c09c05e99dcc] Particao=1 | Offset=4 | Sensor=sensor-01 | Temperatura=64.05 ┬░C | Vibracao=6.17
+producer-1  | 2026-09-26T02:13:10.167379070Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=4 | Temperatura=63.65 ┬░C | Vibracao=1.47
+producer-1  | 2026-09-26T02:13:12.187737996Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=3 | Temperatura=43.16 ┬░C | Vibracao=8.48
+producer-1  | 2026-09-26T02:13:14.217863976Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=4 | Temperatura=64.05 ┬░C | Vibracao=6.17
+consumer-2  | 2026-09-26T02:13:30.322233857Z Grupo: processadores-sensores
+consumer-2  | 2026-09-26T02:13:30.365924664Z /app/consumer.py:59: DeprecationWarning: value_deserializer does not implement kafka.serializer.Deserializer
+consumer-3  | 2026-09-26T02:14:06.801337401Z [CONSUMER 39a24bf4e92c] Particao=2 | Offset=13 | Sensor=sensor-01 | Temperatura=94.4 ┬░C | Vibracao=4.88
+consumer-1  | 2026-09-26T02:13:16.236506954Z [CONSUMER c09c05e99dcc] Particao=1 | Offset=5 | Sensor=sensor-01 | Temperatura=68.09 ┬░C | Vibracao=2.94
+consumer-1  | 2026-09-26T02:13:18.254909071Z [CONSUMER c09c05e99dcc] Particao=1 | Offset=6 | Sensor=sensor-01 | Temperatura=45.92 ┬░C | Vibracao=4.43
+consumer-1  | 2026-09-26T02:13:20.273220246Z [CONSUMER c09c05e99dcc] Particao=0 | Offset=5 | Sensor=sensor-01 | Temperatura=66.41 ┬░C | Vibracao=8.05
+consumer-3  | 2026-09-26T02:14:06.801462679Z [ALERTA] Consumer=39a24bf4e92c | Sensor=sensor-01 | Temperatura=94.4 ┬░C
+consumer-1  | 2026-09-26T02:13:22.291650977Z [CONSUMER c09c05e99dcc] Particao=2 | Offset=6 | Sensor=sensor-01 | Temperatura=41.93 ┬░C | Vibracao=8.25
+consumer-3  | 2026-09-26T02:14:10.833701530Z [CONSUMER 39a24bf4e92c] Particao=2 | Offset=14 | Sensor=sensor-01 | Temperatura=66.63 ┬░C | Vibracao=4.85
+consumer-1  | 2026-09-26T02:13:24.333114441Z [CONSUMER c09c05e99dcc] Particao=2 | Offset=7 | Sensor=sensor-01 | Temperatura=39.84 ┬░C | Vibracao=1.34
+consumer-1  | 2026-09-26T02:13:26.355850104Z [CONSUMER c09c05e99dcc] Particao=1 | Offset=7 | Sensor=sensor-01 | Temperatura=22.61 ┬░C | Vibracao=9.18
+consumer-1  | 2026-09-26T02:13:28.392697777Z [CONSUMER c09c05e99dcc] Particao=2 | Offset=8 | Sensor=sensor-01 | Temperatura=43.83 ┬░C | Vibracao=8.68
+consumer-1  | 2026-09-26T02:13:30.418506170Z [CONSUMER c09c05e99dcc] Particao=0 | Offset=6 | Sensor=sensor-01 | Temperatura=49.81 ┬░C | Vibracao=8.44
+consumer-3  | 2026-09-26T02:14:18.905176662Z [CONSUMER 39a24bf4e92c] Particao=2 | Offset=15 | Sensor=sensor-01 | Temperatura=53.68 ┬░C | Vibracao=2.55
+consumer-2  | 2026-09-26T02:13:30.366040193Z   return KafkaConsumer(
+consumer-1  | 2026-09-26T02:13:32.435261641Z [CONSUMER c09c05e99dcc] Particao=1 | Offset=8 | Sensor=sensor-01 | Temperatura=91.33 ┬░C | Vibracao=6.92
+consumer-1  | 2026-09-26T02:13:32.435354863Z [ALERTA] Consumer=c09c05e99dcc | Sensor=sensor-01 | Temperatura=91.33 ┬░C
+producer-1  | 2026-09-26T02:13:16.236091168Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=5 | Temperatura=68.09 ┬░C | Vibracao=2.94
+consumer-1  | 2026-09-26T02:13:44.563899575Z [CONSUMER c09c05e99dcc] Particao=1 | Offset=9 | Sensor=sensor-01 | Temperatura=68.31 ┬░C | Vibracao=5.93
+consumer-1  | 2026-09-26T02:13:50.661885059Z [CONSUMER c09c05e99dcc] Particao=1 | Offset=10 | Sensor=sensor-01 | Temperatura=70.51 ┬░C | Vibracao=0.78
+consumer-2  | 2026-09-26T02:13:36.496172586Z [CONSUMER a15a28426248] Particao=0 | Offset=7 | Sensor=sensor-01 | Temperatura=45.87 ┬░C | Vibracao=5.47
+consumer-2  | 2026-09-26T02:13:38.510848757Z [CONSUMER a15a28426248] Particao=0 | Offset=8 | Sensor=sensor-01 | Temperatura=74.96 ┬░C | Vibracao=3.01
+consumer-2  | 2026-09-26T02:13:46.608129833Z [CONSUMER a15a28426248] Particao=0 | Offset=9 | Sensor=sensor-01 | Temperatura=67.26 ┬░C | Vibracao=2.93
+consumer-2  | 2026-09-26T02:13:48.638754661Z [CONSUMER a15a28426248] Particao=0 | Offset=10 | Sensor=sensor-01 | Temperatura=39.56 ┬░C | Vibracao=6.69
+consumer-2  | 2026-09-26T02:13:58.728624236Z [CONSUMER a15a28426248] Particao=0 | Offset=11 | Sensor=sensor-01 | Temperatura=46.64 ┬░C | Vibracao=8.58
+consumer-2  | 2026-09-26T02:14:04.778802641Z [CONSUMER a15a28426248] Particao=0 | Offset=12 | Sensor=sensor-01 | Temperatura=24.7 ┬░C | Vibracao=1.32
+consumer-2  | 2026-09-26T02:14:12.852209244Z [CONSUMER a15a28426248] Particao=0 | Offset=13 | Sensor=sensor-01 | Temperatura=20.14 ┬░C | Vibracao=8.21
+consumer-2  | 2026-09-26T02:14:14.868587846Z [CONSUMER a15a28426248] Particao=0 | Offset=14 | Sensor=sensor-01 | Temperatura=30.73 ┬░C | Vibracao=1.29
+consumer-2  | 2026-09-26T02:14:16.888125662Z [CONSUMER a15a28426248] Particao=0 | Offset=15 | Sensor=sensor-01 | Temperatura=85.75 ┬░C | Vibracao=3.19
+consumer-2  | 2026-09-26T02:14:16.888285893Z [ALERTA] Consumer=a15a28426248 | Sensor=sensor-01 | Temperatura=85.75 ┬░C
+consumer-1  | 2026-09-26T02:13:52.680739357Z [CONSUMER c09c05e99dcc] Particao=1 | Offset=11 | Sensor=sensor-01 | Temperatura=28.92 ┬░C | Vibracao=4.33
+producer-1  | 2026-09-26T02:13:18.254247065Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=6 | Temperatura=45.92 ┬░C | Vibracao=4.43
+consumer-1  | 2026-09-26T02:13:54.697424788Z [CONSUMER c09c05e99dcc] Particao=1 | Offset=12 | Sensor=sensor-01 | Temperatura=22.82 ┬░C | Vibracao=9.1
+producer-1  | 2026-09-26T02:13:20.274011607Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=5 | Temperatura=66.41 ┬░C | Vibracao=8.05
+consumer-1  | 2026-09-26T02:14:00.747151289Z [CONSUMER c09c05e99dcc] Particao=1 | Offset=13 | Sensor=sensor-01 | Temperatura=54.13 ┬░C | Vibracao=9.98
+consumer-1  | 2026-09-26T02:14:02.762142316Z [CONSUMER c09c05e99dcc] Particao=1 | Offset=14 | Sensor=sensor-01 | Temperatura=75.23 ┬░C | Vibracao=6.29
+consumer-1  | 2026-09-26T02:14:08.818107704Z [CONSUMER c09c05e99dcc] Particao=1 | Offset=15 | Sensor=sensor-01 | Temperatura=43.03 ┬░C | Vibracao=0.94
+consumer-1  | 2026-09-26T02:14:20.924064687Z [CONSUMER c09c05e99dcc] Particao=1 | Offset=16 | Sensor=sensor-01 | Temperatura=36.43 ┬░C | Vibracao=2.98
+consumer-1  | 2026-09-26T02:14:22.943263779Z [CONSUMER c09c05e99dcc] Particao=1 | Offset=17 | Sensor=sensor-01 | Temperatura=86.07 ┬░C | Vibracao=8.23
+consumer-1  | 2026-09-26T02:14:22.943370139Z [ALERTA] Consumer=c09c05e99dcc | Sensor=sensor-01 | Temperatura=86.07 ┬░C
+producer-1  | 2026-09-26T02:13:22.291587843Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=6 | Temperatura=41.93 ┬░C | Vibracao=8.25
+producer-1  | 2026-09-26T02:13:24.325951290Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=7 | Temperatura=39.84 ┬░C | Vibracao=1.34
+producer-1  | 2026-09-26T02:13:26.355038376Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=7 | Temperatura=22.61 ┬░C | Vibracao=9.18
+producer-1  | 2026-09-26T02:13:28.393856216Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=8 | Temperatura=43.83 ┬░C | Vibracao=8.68
+producer-1  | 2026-09-26T02:13:30.418915148Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=6 | Temperatura=49.81 ┬░C | Vibracao=8.44
+producer-1  | 2026-09-26T02:13:32.435309993Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=8 | Temperatura=91.33 ┬░C | Vibracao=6.92
+producer-1  | 2026-09-26T02:13:34.453009780Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=9 | Temperatura=65.68 ┬░C | Vibracao=5.28
+producer-1  | 2026-09-26T02:13:36.487014634Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=7 | Temperatura=45.87 ┬░C | Vibracao=5.47
+producer-1  | 2026-09-26T02:13:38.510848763Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=8 | Temperatura=74.96 ┬░C | Vibracao=3.01
+producer-1  | 2026-09-26T02:13:40.528809592Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=10 | Temperatura=48.49 ┬░C | Vibracao=3.86
+producer-1  | 2026-09-26T02:13:42.546352784Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=11 | Temperatura=55.34 ┬░C | Vibracao=4.61
+producer-1  | 2026-09-26T02:13:44.564717406Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=9 | Temperatura=68.31 ┬░C | Vibracao=5.93
+producer-1  | 2026-09-26T02:13:46.610368459Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=9 | Temperatura=67.26 ┬░C | Vibracao=2.93
+producer-1  | 2026-09-26T02:13:48.641942964Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=10 | Temperatura=39.56 ┬░C | Vibracao=6.69
+producer-1  | 2026-09-26T02:13:50.661176889Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=10 | Temperatura=70.51 ┬░C | Vibracao=0.78
+producer-1  | 2026-09-26T02:13:52.680779631Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=11 | Temperatura=28.92 ┬░C | Vibracao=4.33
+producer-1  | 2026-09-26T02:13:54.697991514Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=12 | Temperatura=22.82 ┬░C | Vibracao=9.1
+producer-1  | 2026-09-26T02:13:56.711931465Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=12 | Temperatura=73.08 ┬░C | Vibracao=1.54
+producer-1  | 2026-09-26T02:13:58.728454837Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=11 | Temperatura=46.64 ┬░C | Vibracao=8.58
+producer-1  | 2026-09-26T02:14:00.747173661Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=13 | Temperatura=54.13 ┬░C | Vibracao=9.98
+producer-1  | 2026-09-26T02:14:02.762283911Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=14 | Temperatura=75.23 ┬░C | Vibracao=6.29
+producer-1  | 2026-09-26T02:14:04.778984422Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=12 | Temperatura=24.7 ┬░C | Vibracao=1.32
+producer-1  | 2026-09-26T02:14:06.802436716Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=13 | Temperatura=94.4 ┬░C | Vibracao=4.88
+producer-1  | 2026-09-26T02:14:08.818712396Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=15 | Temperatura=43.03 ┬░C | Vibracao=0.94
+producer-1  | 2026-09-26T02:14:10.834253754Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=14 | Temperatura=66.63 ┬░C | Vibracao=4.85
+producer-1  | 2026-09-26T02:14:12.854241639Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=13 | Temperatura=20.14 ┬░C | Vibracao=8.21
+producer-1  | 2026-09-26T02:14:14.868427926Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=14 | Temperatura=30.73 ┬░C | Vibracao=1.29
+producer-1  | 2026-09-26T02:14:16.888817490Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=0 | Offset=15 | Temperatura=85.75 ┬░C | Vibracao=3.19
+producer-1  | 2026-09-26T02:14:18.906012248Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=2 | Offset=15 | Temperatura=53.68 ┬░C | Vibracao=2.55
+producer-1  | 2026-09-26T02:14:20.925766595Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=16 | Temperatura=36.43 ┬░C | Vibracao=2.98
+producer-1  | 2026-09-26T02:14:22.943403994Z [PRODUCER sensor-01] Topico=dados-sensores | Particao=1 | Offset=17 | Temperatura=86.07 ┬░C | Vibracao=8.23

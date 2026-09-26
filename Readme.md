@@ -227,7 +227,6 @@ tópico automaticamente.
 ├── docker-compose.yml      # 3 brokers, kafka-init, producer(s) e consumer
 ├── Makefile
 ├── .env.example
-├── GUIA_CONTINUACAO_PROJETO.md
 ├── RELATORIO.md
 └── Readme.md
 ```

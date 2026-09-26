@@ -42,7 +42,7 @@ sensores-down:
 	docker compose --profile sensores rm -f producer-2 producer-3
 
 topic:
-	docker exec kafka1 /opt/kafka/bin/kafka-topics.sh --bootstrap-server kafka1:19092 --describe --topic dados-sensores
+	docker exec kafka2 /opt/kafka/bin/kafka-topics.sh --bootstrap-server kafka2:19092 --describe --topic dados-sensores
 
 status:
 	docker compose --profile sensores ps

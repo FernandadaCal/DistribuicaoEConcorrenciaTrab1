@@ -74,13 +74,37 @@ container pra gente conseguir diferenciar um do outro.
 | Múltiplos sensores    | `start-sensores.ps1` (sobe o sensor-02 e o sensor-03)    | `logs/multiplos-sensores.log`   |
 | Elasticidade          | `scale-consumer.ps1 -Quantidade 1` e depois `3`          | `logs/elasticidade.log`         |
 
+O `topic-info.ps1` gera mais alguns arquivos com a saída do
+`kafka-topics --describe` e do `kafka-consumer-groups --describe` em cada momento
+do teste: `balanceamento-grupo.log`, `rebalanco-grupo.log`,
+`failover-topico-antes.log`, `failover-topico-durante.log`,
+`failover-topico-depois.log`, `elasticidade-grupo-antes.log` e
+`elasticidade-grupo-depois.log`. Tudo isso sai de uma vez rodando
+`scripts/run-tests.ps1`.
+
 ## 4. O que funcionou
 
 Basicamente tudo que foi pedido: o cluster com 3 brokers, o tópico sendo criado
 sozinho, o envio e consumo com alerta, o balanceamento, o rebalanço, o failover,
 a elasticidade e os múltiplos sensores.
 
-## 5. Problemas que tivemos e como resolvemos
+## 5. O que não funcionou
+
+- O componente de banco de dados ou logger do enunciado ficou incompleto. O
+  consumer só imprime os dados processados e os alertas no stdout, não grava em
+  banco nem em arquivo. O que fica guardado pra análise depois é o log do Docker
+  salvo pelo `save-logs.ps1` na pasta `logs/`.
+- O producer usa o `acks` padrão do kafka-python, que é 1: o líder confirma antes
+  de replicar. Com replicação 2 e `min.insync.replicas=1`, se o líder caísse
+  exatamente entre confirmar e replicar, a mensagem poderia se perder. Nos nossos
+  testes não vimos perda, mas não é garantia.
+- O consumer usa commit automático de offset, que é o padrão. No rebalanço isso
+  pode fazer uma mensagem ser processada duas vezes, ou o offset ser commitado
+  antes do processamento. A gente não tratou isso com commit manual.
+- Os brokers não têm volume, então `docker compose down` apaga os dados do
+  cluster e o tópico é recriado do zero no próximo `up`.
+
+## 6. Problemas que tivemos e como resolvemos
 
 | Problema | Por que acontecia | O que fizemos |
 |----------|-------------------|---------------|
@@ -88,7 +112,8 @@ a elasticidade e os múltiplos sensores.
 | Producer e consumer davam erro ao subir (`NoBrokersAvailable`) | Subiam antes do Kafka estar pronto e a gente tinha que dar restart na mão | `depends_on` esperando o `kafka-init` terminar e `restart: on-failure` |
 | Escalar consumers religava o broker que a gente tinha parado | O `docker compose up` sobe as dependências junto | Colocamos `--no-deps` nos scripts e no Makefile |
 | Vários producers com o mesmo `SENSOR_ID` | Com `--scale producer` todos usavam o mesmo `.env` | Criamos os serviços `producer-2` e `producer-3` no compose, cada um com seu id |
+| Os logs dos testes saíam quase vazios | O Python guarda o `print` em buffer quando o stdout não é um terminal, então as linhas do producer e do consumer só apareciam no `docker logs` muito depois | Colocamos `ENV PYTHONUNBUFFERED=1` nos dois Dockerfiles, e o `save-logs.ps1` passou a salvar só os serviços da aplicação em vez de todos |
 
-## 6. Conclusão
+## 7. Conclusão
 
 O trabalho ajudou a entender na prática como o Kafka distribui mensagens, faz o balanceamento entre consumers e mantém o sistema funcionando mesmo quando algum consumer ou broker cai. Também foi possível testar a escalabilidade do sistema e observar como o grupo se reorganiza automaticamente conforme novos consumers e producers são adicionados.

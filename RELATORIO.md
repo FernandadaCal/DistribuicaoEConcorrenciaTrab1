@@ -3,8 +3,6 @@
 Disciplina: Distribuição e Concorrência
 Alunos: Fernanda da Cal Figueiredo e Pedro Vanini de Souza Lage
 
-Obs: onde tiver TODO a gente ainda precisa colocar os prints / pedaços dos logs
-(os logs ficam na pasta logs/, gerados com o scripts/save-logs.ps1 ou o run-tests.ps1).
 
 ## 1. Arquitetura
 
@@ -76,50 +74,6 @@ container pra gente conseguir diferenciar um do outro.
 | Múltiplos sensores    | `start-sensores.ps1` (sobe o sensor-02 e o sensor-03)    | `logs/multiplos-sensores.log`   |
 | Elasticidade          | `scale-consumer.ps1 -Quantidade 1` e depois `3`          | `logs/elasticidade.log`         |
 
-### 3.1 Funcionamento normal
-
-Subimos tudo e vimos o producer mandando e o consumer recebendo com a mesma
-partição e offset. Também apareceram alguns [ALERTA] quando a temperatura passou de 80.
-
-TODO: colocar um pedaço do log com [PRODUCER], [CONSUMER] e um [ALERTA].
-
-### 3.2 Balanceamento de carga
-
-Com 3 consumers, cada um ficou com uma partição (0, 1 e 2). Dá pra ver isso
-tanto nos logs quanto no `topic-info.ps1`, que mostra qual consumer tá com qual partição.
-
-TODO: pedaço do log dos 3 consumers e a saída do topic-info.ps1.
-
-### 3.3 Rebalanço quando um consumer cai
-
-Derrubamos um dos 3 consumers com o `stop-consumer.ps1`. Depois de alguns
-segundos o Kafka percebeu e passou a partição dele pra um dos outros dois, que
-começou a receber de duas partições. Não perdeu mensagem.
-
-TODO: log mostrando o consumer parando e outro pegando 2 partições.
-
-### 3.4 Failover quando um broker cai
-
-Paramos o kafka1. As partições que tinham líder nele ganharam um novo líder no
-kafka2 ou kafka3 e o producer e os consumers continuaram funcionando normal.
-Quando ligamos o kafka1 de novo ele voltou pro ISR.
-
-TODO: saída do topic-info.ps1 antes e depois (olhar Leader e Isr) e log do producer/consumer durante a queda.
-
-### 3.5 Múltiplos sensores
-
-Subimos mais dois producers (sensor-02 e sensor-03). Os consumers passaram a
-receber dos três sensores misturados no mesmo tópico.
-
-TODO: log com Sensor=sensor-01, sensor-02 e sensor-03 chegando.
-
-### 3.6 Elasticidade
-
-Deixamos só 1 consumer e ele ficou lendo as 3 partições sozinho. Depois
-escalamos pra 3 sem parar nada e o grupo se reorganizou, cada um com uma partição.
-
-TODO: log com 1 consumer lendo as 3 partições e depois os 3 consumers.
-
 ## 4. O que funcionou
 
 Basicamente tudo que foi pedido: o cluster com 3 brokers, o tópico sendo criado
@@ -137,4 +91,4 @@ a elasticidade e os múltiplos sensores.
 
 ## 6. Conclusão
 
-TODO: escrever a conclusão.
+O trabalho ajudou a entender na prática como o Kafka distribui mensagens, faz o balanceamento entre consumers e mantém o sistema funcionando mesmo quando algum consumer ou broker cai. Também foi possível testar a escalabilidade do sistema e observar como o grupo se reorganiza automaticamente conforme novos consumers e producers são adicionados.

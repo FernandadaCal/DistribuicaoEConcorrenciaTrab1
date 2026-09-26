@@ -2,7 +2,7 @@ param(
     [int]$Espera = 20
 )
 
-$Passo = "${Espera}s"
+$Passo = "$($Espera * 3)s"
 $PassoLongo = "$($Espera * 2 + 10)s"
 
 New-Item -ItemType Directory -Force -Path logs | Out-Null

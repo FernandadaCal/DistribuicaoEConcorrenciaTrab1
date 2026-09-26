@@ -1,0 +1,9 @@
+﻿Topic: dados-sensores	TopicId: kSEfEO15SLGhnZ_ydx6XRQ	PartitionCount: 3	ReplicationFactor: 2	Configs: min.insync.replicas=1
+	Topic: dados-sensores	Partition: 0	Leader: 2	Replicas: 1,2	Isr: 2	Elr: 	LastKnownElr: 
+	Topic: dados-sensores	Partition: 1	Leader: 2	Replicas: 2,3	Isr: 2,3	Elr: 	LastKnownElr: 
+	Topic: dados-sensores	Partition: 2	Leader: 3	Replicas: 3,1	Isr: 3	Elr: 	LastKnownElr: 
+
+GROUP                  TOPIC           PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                              HOST            CLIENT-ID
+processadores-sensores dados-sensores  0          24              24              0               kafka-python-3.0.11-271ae21a-75a8-4136-a89c-fb7c9901836a /172.18.0.8     kafka-python-3.0.11
+processadores-sensores dados-sensores  1          24              24              0               kafka-python-3.0.11-271ae21a-75a8-4136-a89c-fb7c9901836a /172.18.0.8     kafka-python-3.0.11
+processadores-sensores dados-sensores  2          27              27              0               kafka-python-3.0.11-8f758e7b-9e55-4501-9ee3-ca192c5a3a54 /172.18.0.6     kafka-python-3.0.11
